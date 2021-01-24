@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px solid #626262;
+    border-radius: 3px;
+    background-color: #9C9C9C;
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.email__wrapper, .password__wrapper,
+.name__wrapper, .age__wrapper,
+.button__wrapper {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #3A3A3A;
+}
+
+input {
+    height: 28px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #9C9C9C;
+    border-radius: 3px;
+}
+
+input::-webkit-input-placeholder {
+    color: #CCCCCC;
+}
+
+input::-moz-placeholder {
+    color: #CCCCCC;
+}
+
+.password__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.input_short {
+    width: 175px;
+}
+
+.button__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid #C4C4C4;
+}
+
+button {
+    height: 32px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.submit {
+    width: 95px;
+    color: #CCCCCC;
+    background-color: #616161;
+}
+
+.cancel {
+    width: 74px;
+    color: #616161;
+    background-color: #CCCCCC;
+}
